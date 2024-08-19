@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Grey+Qo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@font-face {
+    font-family:"Principal";
+    src: url("../Estilos/Fontes/game_of_squids/Game Of Squids.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Secundario";
+    src: url("../Estilos/Fontes/apello_space/ApelloSpace-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Samsung";
+    src: url("../Estilos/Fontes/conversion_2/CONVERSION.otf") format("opentype");
+}
+
+header{
+    background-image: linear-gradient(to top, #264e22, #41663D,#46913F, #689165);
+    margin: 0px;
+    padding: 25px;
+}
+
+.Topo{
+    text-align: center;
+    color: white;
+}
+
+h1#Titulo{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+p.Topo{
+    font-size: 16px;
+}
+
+nav{
+    background-color: #264e22;
+    padding: 10px; 
+}
+
+nav > a{
+    color:white;
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    color: gray;
+    text-decoration: underline;
+    background-color: #46913F;
+}
+
+body{
+    background-color: rgb(222, 184, 135);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-position: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 3px 11px 0px black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Principal", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+h2{
+   font-family: "Secundario", Arial, Helvetica, sans-serif; 
+   font-size: 24px;
+   background-image: linear-gradient(to right, rgb(222, 184, 135), white);
+   border-radius: 10px 10px;
+   padding-left: 10px;
+   margin-left: 10px;
+}
+
+h3{
+    background-color: darkgreen;
+    color: white;
+    padding: 6px;
+    border-radius: 10px 10px 0px 0px;
+    border: 10px 10px darkgreen;
+}
+
+p{
+    text-align: justify;
+    text-indent: 34px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-display: auto;
+    line-height: 30px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+    width: 300px; 
+    height: 195px;
+}
+
+iframe{
+    display:block;
+    margin: auto;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.Video{
+    position: relative;
+    background-color: #264e22;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 55%;
+}
+
+p > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p > a:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Curioso{
+    background-color: #5c9158;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Curioso > article{
+    margin: 10px;
+}
+
+ul{
+    columns: 2;
+    margin: 20px;
+    line-height: 24px;
+    list-style-type: none;
+}
+
+li::before{
+    content:"✓";
+    color: black;
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #264e22;
+    font-size: 19px;
+    min-width: 459px;
+    color: white;
+    
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+
+.Curioso p{
+    padding-bottom: 10px;
+}
+
+footer > p{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*Configurações de Estilo para Pagina Samsung*/
+
+.Samsung h1{
+    font-family: "Samsung", serif;
+    font-weight: normal;
+    font-size: 26px;
+    padding: 10px;
+}
+
+.ImgSamsung img{
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#Logo1960 img{
+    height: 70%;
+}
+
+dl{
+    list-style: none;
+    list-style-type: decimal;
+}
+
+dl li::before{
+    content: none;
+}
+
+dl p{
+    font-weight: bold;
+
+}
+
+dl li{
+    padding-left: 45px;
+    color: white;
+}
+
+/*Configurações de Estilo para Pagina Sobre o Site*/
+
+#Chão{
+    text-align: end;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+#Chão p{
+    text-align: center;
+    padding: 0px;
+    margin: 15px;
+}
+
+#SobreMim h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#SobreMim h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
