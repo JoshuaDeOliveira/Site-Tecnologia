@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*Essas configuraçôes de CSS são para melhorar a resposividade em telas pequenas*/
+
+@media screen and (min-width: 500px) and (max-width: 772px) {
+    nav{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center; 
+    }
+
+    header{
+        padding: 10px;
+    }
+
+    header > p{
+        margin: 0px;
+    }
+}
